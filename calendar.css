@@ -35,6 +35,7 @@
     position: relative;
     color: #ddd;
     background-color: #333;
+	background-color: red;
     font-size: 13px;
 }
 .calendar_h .top span {

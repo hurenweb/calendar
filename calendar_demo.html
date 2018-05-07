@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>calendar-demo</title>
+    <link rel="stylesheet" href="calendar.css">
+    <script src="calendar.js"></script>
+    <style>
+        .input1 {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+        .input2 {
+            position: absolute;
+            left: 350px;
+            top: 350px;
+        }
+    </style>
+</head>
+<body>
+<input type="text" class="input1" id="input1" placeholder="请选择日期">
+<input type="text" class="input2" id="input2" placeholder="请选择日期">
+<script>
+    //初始化方法
+    calendar.init("input1", "2016-06");
+    calendar.init("input2");
+</script>
+</body>
+</html>
